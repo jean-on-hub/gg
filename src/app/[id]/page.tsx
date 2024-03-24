@@ -5,35 +5,35 @@ import ReactPlayer from "react-player";
 import { dancingScript, sansSerif } from "./font";
 import { cn } from "./utils";
 import Typewriter from "typewriter-effect";
-import Image1 from "../../public/0_1.jpg";
-import Image2 from "../../public/2.gif";
-import ImageCol1 from "../../public/col_1.jpg";
-import ImageCol1_1 from "../../public/col_1_1.jpg";
-import ImageCol1_2 from "../../public/col_1_2.jpg";
-import ImageCol1_3 from "../../public/col_1_3.jpg";
-import ImageCol2 from "../../public/col_2.jpg";
-import ImageCol2_1 from "../../public/col_2_1.jpg";
-import ImageCol2_2 from "../../public/col_2_2.jpg";
-import ImageCol2_3 from "../../public/col_2_3.jpg";
-import ImageCol3 from "../../public/col_3.jpg";
-import ImageCol3_1 from "../../public/col_3_1.jpg";
-import ImageCol3_2 from "../../public/col_3_2.jpg";
-import ImageCol3_3 from "../../public/col_3_3.jpg";
-import ImageCol4 from "../../public/col_4.jpg";
-import ImageCol4_1 from "../../public/col_4_1.jpg";
-import ImageCol4_2 from "../../public/col_4_2.jpg";
-import ImageCol4_3 from "../../public/col_4_3.jpg";
-import ImageCol5 from "../../public/col_5.jpg";
-import ImageCol5_1 from "../../public/col_5_1.jpg";
-import ImageCol5_2 from "../../public/col_5_2.jpg";
-import ImageCol5_3 from "../../public/col_5_3.jpg";
-import ImageCol6 from "../../public/col_6.jpg";
-import ImageCol6_1 from "../../public/col_6_1.jpg";
-import ImageCol6_2 from "../../public/col_6_2.jpg";
-import ImageCol6_3 from "../../public/col_6_4.jpg";
-import Gery from "../../public/gery.jpg";
-import Mahita from "../../public/mahita.jpg";
-import Separator from "../../public/separator_1.png";
+import Image1 from "public/0_1.jpg";
+import Image2 from "public/2.gif";
+import ImageCol1 from "public/col_1.jpg";
+import ImageCol1_1 from "public/col_1_1.jpg";
+import ImageCol1_2 from "public/col_1_2.jpg";
+import ImageCol1_3 from "public/col_1_3.jpg";
+import ImageCol2 from "public/col_2.jpg";
+import ImageCol2_1 from "public/col_2_1.jpg";
+import ImageCol2_2 from "public/col_2_2.jpg";
+import ImageCol2_3 from "public/col_2_3.jpg";
+import ImageCol3 from "public/col_3.jpg";
+import ImageCol3_1 from "public/col_3_1.jpg";
+import ImageCol3_2 from "public/col_3_2.jpg";
+import ImageCol3_3 from "public/col_3_3.jpg";
+import ImageCol4 from "public/col_4.jpg";
+import ImageCol4_1 from "public/col_4_1.jpg";
+import ImageCol4_2 from "public/col_4_2.jpg";
+import ImageCol4_3 from "public/col_4_3.jpg";
+import ImageCol5 from "public/col_5.jpg";
+import ImageCol5_1 from "public/col_5_1.jpg";
+import ImageCol5_2 from "public/col_5_2.jpg";
+import ImageCol5_3 from "public/col_5_3.jpg";
+import ImageCol6 from "public/col_6.jpg";
+import ImageCol6_1 from "public/col_6_1.jpg";
+import ImageCol6_2 from "public/col_6_2.jpg";
+import ImageCol6_3 from "public/col_6_4.jpg";
+import Gery from "public/gery.jpg";
+import Mahita from "public/mahita.jpg";
+import Separator from "public/separator_1.png";
 import { Toaster } from "react-hot-toast";
 import Submission from "./submission";
 import { notFound, useParams } from "next/navigation";
@@ -275,11 +275,11 @@ export default function Home() {
         </AnimateOnScroll>
         <AnimateOnScroll>
           <div className="px-4 pt-5 pb-0 space-y-4">
-            {/* <p className="text-center leading-5 text-black"> */}
-              {/* For the convenience of our event, please confirm your attendance
+            <p className="text-center leading-5 text-black">
+               For the convenience of our event, please confirm your attendance
               by December 7th
-            </p> */}
-            {/* <Submission /> */}
+            </p> 
+            <Submission />
           </div>
         </AnimateOnScroll>
         <AnimateOnScroll>

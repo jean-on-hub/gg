@@ -5,6 +5,6 @@ export async function GET(
   { params: { id } }: { params: { id: string } }
 ) {
   return Response.json({
-    name: mappings.find((m) => m.id === id)?.name || null,
+    name: mappings.find((m) => m == null)
   });
 }
