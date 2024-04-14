@@ -219,7 +219,7 @@ export default function Home() {
               </span>{" "}
               <br />{" "}
               <span className="font-bold text-gray-700">
-                10:00am 
+                11:00am 
               </span><br></br>
               <br />
               <hr></hr>
