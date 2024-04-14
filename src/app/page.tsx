@@ -5,7 +5,7 @@ import ReactPlayer from "react-player";
 import { dancingScript, sansSerif } from "./font";
 import { cn } from "./utils";
 import Typewriter from "typewriter-effect";
-import Image1 from "../../public/0_1.jpg";
+import Image1 from "../../public/event.png";
 import Image2 from "../../public/2.gif";
 import ImageCol1 from "../../public/col_1.jpg";
 import ImageCol1_1 from "../../public/col_1_1.jpg";
@@ -31,8 +31,8 @@ import ImageCol6 from "../../public/col_6.jpg";
 import ImageCol6_1 from "../../public/col_6_1.jpg";
 import ImageCol6_2 from "../../public/col_6_2.jpg";
 import ImageCol6_3 from "../../public/col_6_4.jpg";
-import Gery from "../../public/gery.jpg";
-import Mahita from "../../public/mahita.jpg";
+import Gery from "../../public/Ben.png";
+import Mahita from "../../public/Gloria.png";
 import Separator from "../../public/separator_1.png";
 import { Toaster } from "react-hot-toast";
 import Submission from "./submission";
@@ -234,6 +234,36 @@ export default function Home() {
               <br />
               <br />
             </p>
+
+
+
+            <p className="text-center text-black px-4">
+              RSVP
+              <br />
+              ——— <br />{" "}
+              <span className="font-bold text-gray-700">
+              Ben Quao-0269851189 || Dr.Winnifred Owusu-0243251286 
+              </span>{" "}
+              <br />{" "}
+              <span className="font-bold text-gray-700">
+              Christabel-0243458359 || Dr.Mike Kwaffo-0246515322
+              </span><br></br>
+              <br />
+              <br />
+              <br />
+            </p>
+
+
+
+
+
+
+
+
+
+
+
+
             <div className="relative h-[200px] w-full">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.3529702211904!2d-0.23429690000000006!3d5.6619875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9ebca587f1c5%3A0x70e8e651957f3b34!2sPentecost%20International%20Worship%20Centre%20(PIWC)%20-%20Atomic!5e0!3m2!1sen!2sgh!4v1711209556035!5m2!1sen!2sgh"
@@ -274,267 +304,11 @@ export default function Home() {
             <Image src={Image2} alt="Picture of the author" />
           </div>
         </AnimateOnScroll>
-        <AnimateOnScroll>
-          <div className="px-4 pt-5 pb-0 space-y-4">
-            {/* <p className="text-center leading-5 text-black"> */}
-              {/* For the convenience of our event, please confirm your attendance
-              by December 7th
-            </p> */}
-            {/* <Submission /> */}
-          </div>
-        </AnimateOnScroll>
-        <AnimateOnScroll>
-          <div className="p-4 pb-5 pt-5">
-            <div className="flex items-center justify-center pt-2">
-              <Image src={Separator} height={75} alt="separator" />
-            </div>
-          </div>
-        </AnimateOnScroll>
-        <AnimateOnScroll>
-          <div className="p-4 pb-5 pt-0">
-            <p
-              className={cn(
-                dancingScript.className,
-                "text-center text-5xl text-black"
-              )}
-            >
-              Our Memories
-            </p>
-          </div>
-          <div className="px-8 pb-5">
-            <p className="text-center text-black">
-              In the meantime, here are some of our loveliest moment together...
-            </p>
-          </div>
-        </AnimateOnScroll>
-        <AnimateOnScroll>
-          <Image
-            src={ImageCol1}
-            width={videoWidth}
-            onClick={() => setImage(ImageCol1)}
-            alt="separator"
-            placeholder="blur"
-          />
-        </AnimateOnScroll>
-        <div className="flex flex-row">
-          <AnimateOnScroll>
-            <Image
-              onClick={() => setImage(ImageCol1_1)}
-              src={ImageCol1_1}
-              width={videoWidth / 3}
-              placeholder="blur"
-              alt="separator"
-            />
-          </AnimateOnScroll>
-          <AnimateOnScroll>
-            <Image
-              onClick={() => setImage(ImageCol1_2)}
-              src={ImageCol1_2}
-              width={videoWidth / 3}
-              placeholder="blur"
-              alt="separator"
-            />
-          </AnimateOnScroll>
-          <AnimateOnScroll>
-            <Image
-              onClick={() => setImage(ImageCol1_3)}
-              src={ImageCol1_3}
-              width={videoWidth / 3}
-              placeholder="blur"
-              alt="separator"
-            />
-          </AnimateOnScroll>
-        </div>
-        <AnimateOnScroll>
-          <Image
-            src={ImageCol5}
-            onClick={() => setImage(ImageCol5)}
-            width={videoWidth}
-            alt="separator"
-            placeholder="blur"
-          />
-        </AnimateOnScroll>
-        <div className="flex flex-row">
-          <AnimateOnScroll>
-            <Image
-              onClick={() => setImage(ImageCol5_1)}
-              src={ImageCol5_1}
-              width={videoWidth / 3}
-              placeholder="blur"
-              alt="separator"
-            />
-          </AnimateOnScroll>
-          <AnimateOnScroll>
-            <Image
-              onClick={() => setImage(ImageCol5_2)}
-              src={ImageCol5_2}
-              width={videoWidth / 3}
-              placeholder="blur"
-              alt="separator"
-            />
-          </AnimateOnScroll>
-          <AnimateOnScroll>
-            <Image
-              onClick={() => setImage(ImageCol5_3)}
-              src={ImageCol5_3}
-              width={videoWidth / 3}
-              placeholder="blur"
-              alt="separator"
-            />
-          </AnimateOnScroll>
-        </div>
-        <AnimateOnScroll>
-          <Image
-            src={ImageCol6}
-            onClick={() => setImage(ImageCol6)}
-            width={videoWidth}
-            alt="separator"
-            placeholder="blur"
-          />
-        </AnimateOnScroll>
-        <div className="flex flex-row">
-          <AnimateOnScroll>
-            <Image
-              onClick={() => setImage(ImageCol6_1)}
-              src={ImageCol6_1}
-              width={videoWidth / 3}
-              placeholder="blur"
-              alt="separator"
-            />
-          </AnimateOnScroll>
-          <AnimateOnScroll>
-            <Image
-              onClick={() => setImage(ImageCol6_2)}
-              src={ImageCol6_2}
-              width={videoWidth / 3}
-              placeholder="blur"
-              alt="separator"
-            />
-          </AnimateOnScroll>
-          <AnimateOnScroll>
-            <Image
-              onClick={() => setImage(ImageCol6_3)}
-              src={ImageCol6_3}
-              width={videoWidth / 3}
-              placeholder="blur"
-              alt="separator"
-            />
-          </AnimateOnScroll>
-        </div>
-        <AnimateOnScroll>
-          <Image
-            src={ImageCol2}
-            onClick={() => setImage(ImageCol2)}
-            width={videoWidth}
-            alt="separator"
-            placeholder="blur"
-          />
-        </AnimateOnScroll>
-        <div className="flex flex-row">
-          <AnimateOnScroll>
-            <Image
-              onClick={() => setImage(ImageCol2_1)}
-              src={ImageCol2_1}
-              width={videoWidth / 3}
-              placeholder="blur"
-              alt="separator"
-            />
-          </AnimateOnScroll>
-          <AnimateOnScroll>
-            <Image
-              onClick={() => setImage(ImageCol2_2)}
-              src={ImageCol2_2}
-              width={videoWidth / 3}
-              placeholder="blur"
-              alt="separator"
-            />
-          </AnimateOnScroll>
-          <AnimateOnScroll>
-            <Image
-              onClick={() => setImage(ImageCol2_3)}
-              src={ImageCol2_3}
-              width={videoWidth / 3}
-              placeholder="blur"
-              alt="separator"
-            />
-          </AnimateOnScroll>
-        </div>
-        <AnimateOnScroll>
-          <Image
-            src={ImageCol3}
-            onClick={() => setImage(ImageCol3)}
-            width={videoWidth}
-            alt="separator"
-            placeholder="blur"
-          />
-        </AnimateOnScroll>
-        <div className="flex flex-row">
-          <AnimateOnScroll>
-            <Image
-              onClick={() => setImage(ImageCol3_1)}
-              src={ImageCol3_1}
-              width={videoWidth / 3}
-              placeholder="blur"
-              alt="separator"
-            />
-          </AnimateOnScroll>
-          <AnimateOnScroll>
-            <Image
-              onClick={() => setImage(ImageCol3_2)}
-              src={ImageCol3_2}
-              width={videoWidth / 3}
-              placeholder="blur"
-              alt="separator"
-            />
-          </AnimateOnScroll>
-          <AnimateOnScroll>
-            <Image
-              onClick={() => setImage(ImageCol3_3)}
-              src={ImageCol3_3}
-              width={videoWidth / 3}
-              placeholder="blur"
-              alt="separator"
-            />
-          </AnimateOnScroll>
-        </div>
-        <AnimateOnScroll>
-          <Image
-            src={ImageCol4}
-            onClick={() => setImage(ImageCol4)}
-            width={videoWidth}
-            alt="separator"
-            placeholder="blur"
-          />
-        </AnimateOnScroll>
-        <div className="flex flex-row">
-          <AnimateOnScroll>
-            <Image
-              onClick={() => setImage(ImageCol4_1)}
-              src={ImageCol4_1}
-              width={videoWidth / 3}
-              placeholder="blur"
-              alt="separator"
-            />
-          </AnimateOnScroll>
-          <AnimateOnScroll>
-            <Image
-              onClick={() => setImage(ImageCol4_2)}
-              src={ImageCol4_2}
-              width={videoWidth / 3}
-              placeholder="blur"
-              alt="separator"
-            />
-          </AnimateOnScroll>
-          <AnimateOnScroll>
-            <Image
-              onClick={() => setImage(ImageCol4_3)}
-              src={ImageCol4_3}
-              width={videoWidth / 3}
-              placeholder="blur"
-              alt="separator"
-            />
-          </AnimateOnScroll>
-        </div>
+    
+       
+       
+       
+        
 
         <p className={cn(dancingScript.className, "py-5 text-black")}>
           Made with love, by Benedict & Gloria
