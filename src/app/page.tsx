@@ -219,12 +219,12 @@ export default function Home() {
               </span>{" "}
               <br />{" "}
               <span className="font-bold text-gray-700">
-                11:00am 
+                11:00am
               </span><br></br>
               <br />
               <hr></hr>
               <span className="font-bold text-gray-700">
-              Bible verse: Songs of Solomon 3 Vrs 4 <strong>KJV</strong>
+              Bible verse: Songs of Solomon 3 Vrs 4 <strong>KJV </strong>
               </span>
               <hr></hr>
               <span className="font-bold text-gray-700">
