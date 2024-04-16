@@ -133,7 +133,7 @@ export default function Home() {
             <p className="text-center leading-5 text-black">
             The Families of Mr.Ekow Awortwe and Elder
             John Boateng Asante Respectfully invite 
-            you the Holy Matrimony of their son and daughter.
+            you to the Holy Matrimony of their son and daughter.
             </p>
           </div>
         </AnimateOnScroll>
