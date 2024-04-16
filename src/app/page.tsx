@@ -229,7 +229,7 @@ export default function Home() {
               <hr></hr>
               <span className="font-bold text-gray-700">
                 <br />
-              <strong>Colours:</strong> Peach,Emerald, Green and Gold
+              <strong>Colours:</strong> Peach,Emerald green and Gold
               </span>
               <br />
               <br />
