@@ -105,11 +105,11 @@ export default function Home() {
             }}
             className="flex flex-col items-center justify-center absolute top-0 text-white w-full z-10"
           >
-            <p className={cn(dancingScript.className)}>The Burial of</p>
+            <p className={cn(dancingScript.className)}>Honouring</p>
             <p className={cn(dancingScript.className, "text-4xl")}>
-            Mr. George Joseph Abeiky Amissah
+            George Abeiku Amissah
             </p>
-            <p className="text-sm">25.10.2024
+            <p className="text-sm">1961-2024
 </p>
           </div>
         </div>
@@ -131,7 +131,7 @@ export default function Home() {
               />
             </p>
             <p className="text-center leading-5 text-black">
-            The family of the late Mr. George Joseph Abeiky Amissah
+            The family of the late Mr. George Joseph Abeiku Amissah
 cordially invites you to join us as we honor and celebrate the life of our beloved.
 Your presence and support during this time of sorrow would mean the world to us.
             </p>
@@ -145,12 +145,12 @@ Your presence and support during this time of sorrow would mean the world to us.
               alt="Picture of the author"
             />
             <div className="flex flex-col space-y-2">
-              <p className="text-2xl text-gray-700">Benedict Ekow Awortwe</p>
+              <p className="text-2xl text-gray-700">The children</p>
               <div className="border-t border-black font-light text-gray-700">
-                son of 
+                 
               </div>
               <p className="text-black">
-                Mr.Ekow Awortwe <br />
+                 <br />
       
               </p>
             </div>
@@ -160,13 +160,13 @@ Your presence and support during this time of sorrow would mean the world to us.
           <div className="flex flex-row space-x-4 items-center">
             <div className="flex flex-col space-y-2">
               <p className="text-2xl text-end text-black">
-                Gloria Asantewaa Boateng
+                The siblings
               </p>
               <div className="border-t border-black font-light text-gray-700 text-end">
-                daughter of
+                 
               </div>
               <p className="text-end text-black">
-                Mr. John Boateng Asante (Elder) <br />
+                <br />
       
               </p>
             </div>
