@@ -210,7 +210,7 @@ Your presence and support during this time of sorrow would mean the world to us.
               Join us for the pre-burial mass at
               <br />
               <span className="font-bold text-gray-700">
-              Osu St. Peter's Catholic Church
+              Osu St. Peter&#39;s Catholic Church
               </span>
               <br />
               — on — <br />{" "}
