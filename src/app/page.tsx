@@ -5,7 +5,7 @@ import ReactPlayer from "react-player";
 import { dancingScript, sansSerif } from "./font";
 import { cn } from "./utils";
 import Typewriter from "typewriter-effect";
-import Image1 from "../../public/event.png";
+import Image1 from "../../public/finvite2.jpg";
 import Image2 from "../../public/2.gif";
 import ImageCol1 from "../../public/col_1.jpg";
 import ImageCol1_1 from "../../public/col_1_1.jpg";
@@ -105,11 +105,11 @@ export default function Home() {
             }}
             className="flex flex-col items-center justify-center absolute top-0 text-white w-full z-10"
           >
-            <p className={cn(dancingScript.className)}>The Wedding of</p>
+            <p className={cn(dancingScript.className)}>The Burial of</p>
             <p className={cn(dancingScript.className, "text-4xl")}>
-              Benedict & Gloria
+            Mr. George Joseph Abeiky Amissah
             </p>
-            <p className="text-sm">04.05.2024
+            <p className="text-sm">25.10.2024
 </p>
           </div>
         </div>
