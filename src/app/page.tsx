@@ -31,8 +31,8 @@ import ImageCol6 from "../../public/col_6.jpg";
 import ImageCol6_1 from "../../public/col_6_1.jpg";
 import ImageCol6_2 from "../../public/col_6_2.jpg";
 import ImageCol6_3 from "../../public/col_6_4.jpg";
-import Gery from "../../public/Ben.png";
-import Mahita from "../../public/Gloria.png";
+import Gery from "../../public/finvite2.jpg";
+import Mahita from "../../public/finvite2.jpg";
 import Separator from "../../public/separator_1.png";
 import { Toaster } from "react-hot-toast";
 import Submission from "./submission";
@@ -66,7 +66,7 @@ export default function Home() {
 
   const oneDay = 24 * 60 * 60 * 1000; // hours*minutes*seconds*milliseconds
   const start = new Date();
-  const end = new Date("2024-05-04");
+  const end = new Date("2024-10-25");
 
   const days = Math.round(Math.abs((start.getTime() - end.getTime()) / oneDay));
 
@@ -131,9 +131,9 @@ export default function Home() {
               />
             </p>
             <p className="text-center leading-5 text-black">
-            The Families of Mr.Ekow Awortwe and Elder
-            John Boateng Asante Respectfully invite 
-            you to the Holy Matrimony of their son and daughter.
+            The family of the late Mr. George Joseph Abeiky Amissah
+cordially invites you to join us as we honor and celebrate the life of our beloved.
+Your presence and support during this time of sorrow would mean the world to us.
             </p>
           </div>
         </AnimateOnScroll>
@@ -207,29 +207,29 @@ export default function Home() {
               className="absolute h-full w-full"
             ></div>
             <p className="text-center text-black px-4">
-              Join us for the celebration at
+              Join us for the pre-burial mass at
               <br />
               <span className="font-bold text-gray-700">
-              Pentecost International Worship Centre Atomic
+              Osu St. Peter's Catholic Church
               </span>
               <br />
               — on — <br />{" "}
               <span className="font-bold text-gray-700">
-                4th of May 2024
+               Friday, October 25, 2024
               </span>{" "}
               <br />{" "}
               <span className="font-bold text-gray-700">
-                11:00am
+                7:30am
               </span><br></br>
               <br />
               <hr></hr>
               <span className="font-bold text-gray-700">
-              Bible verse: Songs of Solomon 3 Vrs 4 <strong>KJV </strong>
+              <strong>Burial service:</strong> Friday, October 25, 2024 <strong> 9:00am </strong>
               </span>
               <hr></hr>
               <span className="font-bold text-gray-700">
                 <br />
-              <strong>Colours:</strong> Peach,Emerald green and Gold
+              <strong>Thanksgiving service</strong> Sunday, October 27, 2024 <strong> 8:30am </strong>
               </span>
               <br />
               <br />
@@ -238,11 +238,11 @@ export default function Home() {
 
 
             <p className="text-center text-black px-4">
-              RSVP
+              Contact
               <br />
               ——— <br />{" "}
               <span className="font-bold text-gray-700">
-              Ben Quao-0269851189 || Dr.Winnifred Owusu-0243251286 
+              Lawrence-0269851189 || Dr.Winnifred Owusu-0243251286 
               </span>{" "}
               <br />{" "}
               <span className="font-bold text-gray-700">
@@ -265,8 +265,7 @@ export default function Home() {
 
 
             <div className="relative h-[200px] w-full">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.3529702211904!2d-0.23429690000000006!3d5.6619875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9ebca587f1c5%3A0x70e8e651957f3b34!2sPentecost%20International%20Worship%20Centre%20(PIWC)%20-%20Atomic!5e0!3m2!1sen!2sgh!4v1711209556035!5m2!1sen!2sgh"
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.098260468578!2d-0.18020109999999998!3d5.5524498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf907b21e9dccf%3A0xa4c319ff33a683d2!2sSt.%20Peter&#39;s%20Catholic%20Church!5e0!3m2!1sen!2sgh!4v1729444488287!5m2!1sen!2sgh"
                 width="450"
                 height="200"
                 style={{
@@ -284,7 +283,7 @@ export default function Home() {
             </div>
           </div>
         </AnimateOnScroll>
-        <AnimateOnScroll>
+        {/* <AnimateOnScroll>
           <div className="relative">
             <div
               className={cn(
@@ -303,16 +302,16 @@ export default function Home() {
             </div>
             <Image src={Image2} alt="Picture of the author" />
           </div>
-        </AnimateOnScroll>
+        </AnimateOnScroll> */}
     
        
        
        
         
 
-        <p className={cn(dancingScript.className, "py-5 text-black")}>
+        {/* <p className={cn(dancingScript.className, "py-5 text-black")}>
           Made with love, by Benedict & Gloria
-        </p>
+        </p> */}
       </main>
     </>
   );
