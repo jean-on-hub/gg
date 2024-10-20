@@ -4,8 +4,8 @@ import { specialElite } from "./font";
 import { cn } from "./utils";
 
 export const metadata: Metadata = {
-  title: "Benedict & Gloria's Wedding Invitation",
-  description: "Benedict & Gloria's Wedding Invitation",
+  title: "Funeral annoucement",
+  description: "Funeral annoucement",
 };
 
 export default function RootLayout({
